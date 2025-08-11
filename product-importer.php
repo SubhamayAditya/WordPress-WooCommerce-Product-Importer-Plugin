@@ -125,7 +125,7 @@ function importproducts_api_func()
     </script>';
 }
 
-// Helper: Get Product by Title
+//** Helper: Get Product by Title ***//
 function djpi_get_product_id_by_title($title)
 {
     global $wpdb;
@@ -136,7 +136,7 @@ function djpi_get_product_id_by_title($title)
     ", $title));
 }
 
-// Set Product Image
+//*** Set Product Image ***// 
 function djpi_set_product_image($post_id, $image_url)
 {
     require_once(ABSPATH . 'wp-admin/includes/image.php');
